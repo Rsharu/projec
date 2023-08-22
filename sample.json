@@ -1,0 +1,217 @@
+{
+  "api-version": "2022-08-31",
+  "model_id": "prebuild-idDocument", 
+  "languages":[],
+  "documents":[
+    {
+      "doc_type": "idDocument.driverLicense",
+      "bounding_regions": [
+        {
+          "page_number":1,
+          "polygon": [
+            {
+              "x":0.0,
+              "y":0.0
+            },
+            {
+              "x":500.0,
+              "y":0.0
+            },
+            {
+              "x":500.0,
+              "y":317.0
+            },
+            {
+              "x":0.0,
+              "y":317.0
+            }
+          ]
+        }
+      ],
+      "span": [
+        {
+          "offset": 0,
+          "length": 268
+        }
+      ],
+      "fields": {
+        "Firstname":{
+          "value_type": "string",
+          "value": "Johanna , . bagg - dam",
+          "content": "Johanna",
+          "bounding_regions": [
+            {
+              "page_number":1,
+              "polygon": [
+                {
+                  "x":163.0,
+                  "y":88.0
+                },
+                {
+                  "x":209.0,
+                  "y":88.0
+                },
+                {
+                  "x":209.0,
+                  "y":88.0
+                },
+                {
+                  "x":163.0,
+                  "y":102.0
+                }
+              ]
+            }
+          ],
+          "span": [
+            {
+              "offset": 0,
+              "length": 268
+            }
+          ],
+          "confidence": 0.737 
+        },
+        "Lastname":{
+          "value_type": "string",
+          "value": "RICHRD",
+          "content": "RICHRD",
+          "bounding_regions": [
+            {
+              "page_number":1,
+              "polygon": [
+                {
+                  "x":162.0,
+                  "y":67.0
+                },
+                {
+                  "x":288.0,
+                  "y":66.0
+                },
+                {
+                  "x":288.0,
+                  "y":83.0
+                },
+                {
+                  "x":162.0,
+                  "y":83.0
+                }
+              ]
+            }
+          ],
+          "span": [
+            {
+              "offset": 0,
+              "length": 268
+            }
+          ],
+          "confidence": 0.808
+        },
+        "DateOfBirth":{
+          "value_type": "string",
+          "value": "20.05.2011",
+          "content": "20.05.2011",
+          "bounding_regions": [
+            {
+              "page_number":1,
+              "polygon": [
+                {
+                  "x":162.0,
+                  "y":67.0
+                },
+                {
+                  "x":288.0,
+                  "y":66.0
+                },
+                {
+                  "x":288.0,
+                  "y":83.0
+                },
+                {
+                  "x":162.0,
+                  "y":83.0
+                }
+              ]
+            }
+          ],
+          "span": [
+            {
+              "offset": 0,
+              "length": 268
+            }
+          ],
+          "confidence": 0.808
+        },
+        "DateOfExpiration":{
+          "value_type": "string",
+          "value": "12.04.2022",
+          "content": "12.04.2022",
+          "bounding_regions": [
+            {
+              "page_number":1,
+              "polygon": [
+                {
+                  "x":162.0,
+                  "y":67.0
+                },
+                {
+                  "x":288.0,
+                  "y":66.0
+                },
+                {
+                  "x":288.0,
+                  "y":83.0
+                },
+                {
+                  "x":162.0,
+                  "y":83.0
+                }
+              ]
+            }
+          ],
+          "span": [
+            {
+              "offset": 0,
+              "length": 268
+            }
+          ],
+          "confidence": 0.808
+        }  
+      },
+      "confidence": 0.971
+    }
+  ],
+  "paragraphs":[
+    {
+      "role": null,
+      "content": "1. RICHARD 2. Johanna 3. 29.11.1992 (Paris 075)",
+      "bounding_regions": [
+        {
+          "page_number":1,
+          "polygon": [
+            {
+              "x":146.0,
+              "y":64.0
+            },
+            {
+              "x":262.0,
+              "y":65.0
+            },
+            {
+              "x":262.0,
+              "y":121.0
+            },
+            {
+              "x":146.0,
+              "y":120.0
+            }
+          ]
+        }
+      ],
+      "span": [
+        {
+          "offset": 37,
+          "length": 47
+        }
+      ]
+    }
+  ]
+}
